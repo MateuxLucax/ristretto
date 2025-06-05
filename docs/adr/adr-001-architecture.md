@@ -7,7 +7,7 @@ Describe here the forces that influence the design decision, including technolog
 - Requirement to support multiple database connections, large result sets, and advanced features (AI, autocompletion, history).
 - Maintainability, extensibility, and cross-platform support.
 
-## Decision 
+## Decision
 
 We will architect Ristretto as a Tauri desktop application with a Svelte frontend and a Rust backend. The backend will manage database connections, query execution, streaming, and type checking. The frontend will handle UI, state, and API calls to the backend. Data will be streamed for large result sets. AI and advanced features will be modular.
 

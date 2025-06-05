@@ -5,9 +5,7 @@ description: 'This template is used to create a new use case in the `docs/use-ca
   The template is designed to be filled out with specific details about the use case being described.
   The deliverables section includes a table format for clarity.'
 ---
-Task: Name of the task
-
----
+# Task: Name of the task
 
 **Introduction**:
 
@@ -17,14 +15,14 @@ Task: Name of the task
 
 **Sub-Task**: 
 
-- 1
-- 2
-- 3
+- [ ] 1
+- [ ] 2
+- [ ] 3
 
 **Resources**:
 
- * A brief description of what happens in this use case.
- * A link
+- A brief description of what happens in this use case.
+- A link
 
 Deliverables:
 
@@ -32,7 +30,6 @@ Deliverables:
 
 | Task | Deliverable |
 |:--------------|:----------------|
-| Intentionally blank for spacing | <img height=5 width=700/> |
 | The task keyword | Expectation to be met (results etc.) |
 | The next task | Expected results |
 | Close ticket | Expectations all pass or explanation why not |
